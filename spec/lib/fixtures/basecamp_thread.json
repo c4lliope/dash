@@ -1,0 +1,160 @@
+{
+  "id":34918855,
+  "private":false,
+  "trashed":false,
+  "subject":"[standup] Wednesday, December 10",
+  "content":"Another appointment this morning, should be in the office around 10.",
+  "created_at":"2014-12-10T11:55:38.000-05:00",
+  "updated_at":"2014-12-10T13:56:36.000-05:00",
+  "creator":{
+    "id":7229235,
+    "name":"Steven Harley",
+    "avatar_url":"http://dge9rmgqjs8m1.cloudfront.net/global/988854cf029a52e289291f69967e763b0010/avatar.gif?r=3",
+    "fullsize_avatar_url":"https://dge9rmgqjs8m1.cloudfront.net/global/988854cf029a52e289291f69967e763b0010/original.gif?r=3"
+  },
+  "comments":[
+    {
+      "id":228100797,
+      "content":"Teespring",
+      "created_at":"2014-12-10T12:13:56.000-05:00",
+      "updated_at":"2014-12-10T12:13:56.000-05:00",
+      "private":false,
+      "trashed":false,
+      "attachments":[],
+      "creator":{
+        "id":6125528,
+        "name":"Rich Rines",
+        "avatar_url":"http://dge9rmgqjs8m1.cloudfront.net/builtin/default_avatar_v1_8/avatar.gif?r=3",
+        "fullsize_avatar_url":"https://dge9rmgqjs8m1.cloudfront.net/builtin/default_avatar_v1_8/original.gif?r=3"
+      }
+    },
+    {
+      "id":228115714,
+      "content":"- I have an 11 am appointment and will likely miss standup. I should be back before 1 pm.<br><br>- don't forget your White Elephant gifts tomorrow -- it will be raining like crazy so today is a good day to grab yours if you haven't already.",
+      "created_at":"2014-12-10T12:40:34.000-05:00",
+      "updated_at":"2014-12-10T12:41:20.000-05:00",
+      "private":false,
+      "trashed":false,
+      "attachments":[],
+      "creator":{
+        "id":4930500,
+        "name":"Carlo Iyog",
+        "avatar_url":"http://dge9rmgqjs8m1.cloudfront.net/global/0691d60dc47bfc83689a15f2dc177ec80010/avatar.gif?r=3",
+        "fullsize_avatar_url":"https://dge9rmgqjs8m1.cloudfront.net/global/0691d60dc47bfc83689a15f2dc177ec80010/original.gif?r=3"
+      }
+    },
+    {
+      "id":228122887,
+      "content":"- hot chocolate is back! I've set it up next to the Keurig station.",
+      "created_at":"2014-12-10T12:54:18.000-05:00",
+      "updated_at":"2014-12-10T12:54:18.000-05:00",
+      "private":false,
+      "trashed":false,
+      "attachments":[],
+      "creator":{
+        "id":4930500,
+        "name":"Carlo Iyog",
+        "avatar_url":"http://dge9rmgqjs8m1.cloudfront.net/global/0691d60dc47bfc83689a15f2dc177ec80010/avatar.gif?r=3",
+        "fullsize_avatar_url":"https://dge9rmgqjs8m1.cloudfront.net/global/0691d60dc47bfc83689a15f2dc177ec80010/original.gif?r=3"
+      }
+    },
+    {
+      "id":228123676,
+      "content":"Carlo, the schedule says white elephant is on Friday",
+      "created_at":"2014-12-10T12:55:48.000-05:00",
+      "updated_at":"2014-12-10T12:55:48.000-05:00",
+      "private":false,
+      "trashed":false,
+      "attachments":[],
+      "creator":{
+        "id":7229235,
+        "name":"Steven Harley",
+        "avatar_url":"http://dge9rmgqjs8m1.cloudfront.net/global/988854cf029a52e289291f69967e763b0010/avatar.gif?r=3",
+        "fullsize_avatar_url":"https://dge9rmgqjs8m1.cloudfront.net/global/988854cf029a52e289291f69967e763b0010/original.gif?r=3"
+      }
+    },
+    {
+      "id":228126743,
+      "content":"At teespring. <br><br>In addition to the crazy rain tomorrow, apparently the wind could get up to 50 mph: <br><br>http://www.google.org/publicalerts/alert?aid=f77927dd4d15cc48&amp;hl=en&amp;gl=US&amp;source=web ",
+      "created_at":"2014-12-10T13:01:38.000-05:00",
+      "updated_at":"2014-12-10T13:01:38.000-05:00",
+      "private":false,
+      "trashed":false,
+      "attachments":[],
+      "creator":{
+        "id":9447471,
+        "name":"Michelle Venetucci Harvey",
+        "avatar_url":"http://dge9rmgqjs8m1.cloudfront.net/global/5e768743a62e83b92bc6510910c9d6740010/avatar.gif?r=3",
+        "fullsize_avatar_url":"https://dge9rmgqjs8m1.cloudfront.net/global/5e768743a62e83b92bc6510910c9d6740010/original.gif?r=3"
+      }
+    },
+    {
+      "id":228127890,
+      "content":"Apologies! Thanks, Steven -- you are right. I forgot that I had switched that with the caricature session.<br><br>White Elephant is on Friday after lunch.",
+      "created_at":"2014-12-10T13:03:50.000-05:00",
+      "updated_at":"2014-12-10T13:03:50.000-05:00",
+      "private":false,
+      "trashed":false,
+      "attachments":[],
+      "creator":{
+        "id":4930500,
+        "name":"Carlo Iyog",
+        "avatar_url":"http://dge9rmgqjs8m1.cloudfront.net/global/0691d60dc47bfc83689a15f2dc177ec80010/avatar.gif?r=3",
+        "fullsize_avatar_url":"https://dge9rmgqjs8m1.cloudfront.net/global/0691d60dc47bfc83689a15f2dc177ec80010/original.gif?r=3"
+      }
+    },
+    {
+      "id":228151538,
+      "content":"WFH this morning on Autodesk, I'll be in this afternoon.<br><br>Steven/Carlo, can you share a link to the schedule? I think I missed it.",
+      "created_at":"2014-12-10T13:51:42.000-05:00",
+      "updated_at":"2014-12-10T13:51:42.000-05:00",
+      "private":false,
+      "trashed":false,
+      "attachments":[],
+      "creator":{
+        "id":9592484,
+        "name":"Grayson Wright",
+        "avatar_url":"http://dge9rmgqjs8m1.cloudfront.net/global/f5b04bb73828b2bbd382630fe06683df0010/avatar.gif?r=3",
+        "fullsize_avatar_url":"https://dge9rmgqjs8m1.cloudfront.net/global/f5b04bb73828b2bbd382630fe06683df0010/original.gif?r=3"
+      }
+    },
+    {
+      "id":228153958,
+      "content":"WFH on Autodesk until lunch. After lunch pairing with Grayson on Autodesk in the office.",
+      "created_at":"2014-12-10T13:56:36.000-05:00",
+      "updated_at":"2014-12-10T13:56:36.000-05:00",
+      "private":false,
+      "trashed":false,
+      "attachments":[],
+      "creator":{
+        "id":2115636,
+        "name":"Greg Lazarev",
+        "avatar_url":"http://dge9rmgqjs8m1.cloudfront.net/global/14073c5c7dd2928a8f9eea3d62a85f930010/avatar.gif?r=3",
+        "fullsize_avatar_url":"https://dge9rmgqjs8m1.cloudfront.net/global/14073c5c7dd2928a8f9eea3d62a85f930010/original.gif?r=3"
+      }
+    }
+  ],
+  "attachments":[],
+  "subscribers":[
+    { "id":621, "name":"Matt Jankowski" },
+    { "id":630, "name":"Dan Croak" },
+    { "id":636, "name":"Galen Frechette" },
+    { "id":636521, "name":"Adarsh Pandit" },
+    { "id":2115636, "name":"Greg Lazarev" },
+    { "id":2354825, "name":"Mark Adams" },
+    { "id":2504246, "name":"Jessie Young" },
+    { "id":3430844, "name":"Laila Winner" },
+    { "id":4190753, "name":"Devon St.Clair" },
+    { "id":4930500, "name":"Carlo Iyog" },
+    { "id":6054646, "name":"Don Okuda" },
+    { "id":6125528, "name":"Rich Rines" },
+    { "id":6294008, "name":"Carolann Bonner" },
+    { "id":7465156, "name":"Simon Taranto" },
+    { "id":7885981, "name":"Keith Smiley" },
+    { "id":8402565, "name":"Jeff Smith" },
+    { "id":9409642, "name":"Bernerd Schaefer" },
+    { "id":9447471, "name":"Michelle Venetucci Harvey" },
+    { "id":9592484, "name":"Grayson Wright" },
+    { "id":7229235, "name":"Steven Harley" }
+  ]
+}
