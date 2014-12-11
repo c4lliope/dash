@@ -1,3 +1,11 @@
+GIT
+  remote: git@github.com:richrines/logan.git
+  revision: 9081baf1d59715e72060a616c98ff1cd9ce95e8d
+  specs:
+    logan (0.1.4)
+      httparty (= 0.11.0)
+      json (~> 1.8)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -95,6 +103,9 @@ GEM
     high_voltage (2.2.1)
     highline (1.6.21)
     hike (1.2.3)
+    httparty (0.11.0)
+      multi_json (~> 1.0)
+      multi_xml (>= 0.5.2)
     i18n (0.6.11)
     i18n-tasks (0.7.8)
       activesupport
@@ -119,6 +130,7 @@ GEM
     mini_portile (0.6.1)
     minitest (5.4.3)
     multi_json (1.10.1)
+    multi_xml (0.5.5)
     newrelic_rpm (3.9.8.273)
     nokogiri (1.6.5)
       mini_portile (~> 0.6.0)
@@ -247,6 +259,7 @@ DEPENDENCIES
   i18n-tasks
   jquery-rails
   launchy
+  logan!
   newrelic_rpm
   normalize-rails (~> 3.0.0)
   pg
