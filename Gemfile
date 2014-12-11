@@ -1,5 +1,7 @@
 source "https://rubygems.org"
 
+gem "sinatra"
+
 group :development, :test do
   gem "rake", "~> 10.4.2"
   gem "rspec", "~> 3.1.0"
