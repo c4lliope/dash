@@ -1,6 +1,8 @@
 source "https://rubygems.org"
 
 gem "sinatra"
+gem "slim"
+gem "stylus"
 
 group :development, :test do
   gem "rake", "~> 10.4.2"
