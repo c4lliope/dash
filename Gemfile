@@ -3,6 +3,7 @@ source "https://rubygems.org"
 ruby "2.1.5"
 
 gem "airbrake"
+gem "autoprefixer-rails"
 gem "coffee-rails"
 gem "delayed_job_active_record"
 gem "email_validator"
