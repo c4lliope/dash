@@ -1,13 +1,12 @@
 doctype html
-  html
-    head
-      meta charset="utf-8"
-      meta content="NOODP" name="ROBOTS" /
-      meta content="initial-scale=1" name="viewport" /
-      title Mothgraller
-      = stylesheet_link_tag :application, media: "all"
-      = csrf_meta_tags
-    body
-      == render "flashes"
-      == yield
-      == render "javascript"
+html
+  head
+    meta charset="utf-8"
+    meta content="NOODP" name="ROBOTS" /
+    meta content="initial-scale=1" name="viewport" /
+    title Mothgraller
+    = csrf_meta_tags
+  body
+    == render "flashes"
+    == yield
+    == render "javascript"
