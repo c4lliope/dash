@@ -27,6 +27,20 @@ RSpec.describe BasecampStandupParser do
     end
   end
 
+  it "gives a list of authors and summaries" do
+    json = File.read(fixture_file)
+    parser = BasecampStandupParser.new(json)
+
+    expect(parser.summaries).to eq [
+      { name: "Greg Lazarev", summary: "WFH on Autodesk until lunch" },
+      { name: "Grayson Wright", summary: "WFH this morning on Autodesk, I'll be in this afternoon" },
+      { name: "Michelle Venetucci Harvey", summary: "At teespring" },
+      { name: "Carlo Iyog", summary: "- I have an 11 am appointment and will likely miss standup" },
+      { name: "Rich Rines", summary: "Teespring" },
+      { name: "Steven Harley", summary: "Another appointment this morning, should be in the office around 10" },
+    ]
+  end
+
   def fixture_file
     File.expand_path("../fixtures/basecamp_thread.json", __FILE__)
   end

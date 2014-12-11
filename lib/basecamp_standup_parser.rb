@@ -13,7 +13,20 @@ class BasecampStandupParser
     status_for(name).scan(/\A[^\.]+/).first
   end
 
+  def summaries
+    authors.reverse.map do |author|
+      {
+        name: author,
+        summary: summary_for(author),
+      }
+    end
+  end
+
   private
+
+  def authors
+    comments.map {|comment| comment[:creator][:name] }.uniq
+  end
 
   def first_comment_by(name)
     comments.find { |comment| comment[:creator][:name] == name}

@@ -1,15 +1,12 @@
 .dashboard_title
-  h1.dashboard_name Stand Up
+  h1.dashboard_name Mothgrallier
   h2.dashboard_tag We in the huddle
   h3.current_date Thursday, Dec. 11, 2014
 
 ul.standup_list
-  li.standup_message
-    .user_avatar
-      img src="http://placehold.it/350x150"
-    .sentiment_icon
-    h3.user_name = "#{@orginal_author}: #{@original_message}"
-
-    - @comments.each do |comment|
-      p.user_message
-        = "#{comment["creator"]["name"]}: #{comment["content"]}"
+  - @summaries.each do |summary|
+    li.standup_message
+      .user_avatar
+        img src="http://placekitten.com/350/150"
+      .sentiment_icon
+      h3.user_name = "#{summary[:name]}: #{summary[:summary]}"
