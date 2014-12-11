@@ -1,7 +1,0 @@
-<h1><%= @original_subject %><h1>
-    <h2><%= "#{@orginal_author}: #{@original_message}"%></h2>
-
-<br>
-<% @comments.each do |comment| %>
-  <h2><%= "#{comment["creator"]["name"]}: #{comment["content"]}" %></h2><br>
-<% end %>
