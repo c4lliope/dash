@@ -273,6 +273,7 @@ DEPENDENCIES
   launchy
   logan!
   newrelic_rpm
+  nokogiri
   normalize-rails (~> 3.0.0)
   pg
   pry-rails

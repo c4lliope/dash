@@ -30,6 +30,7 @@ gem "sentimental"
 gem "better_errors"
 gem "binding_of_caller"
 gem "gravatar"
+gem "nokogiri"
 
 group :development do
   gem "bundler-audit"
