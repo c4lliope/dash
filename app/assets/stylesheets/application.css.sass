@@ -2,18 +2,23 @@ $thoughtbot-red: #c52c2f
 
 body
   background: $thoughtbot-red
-  transition: transform 1s
-  font-family: Helvetica
   color: white
+  font-family: Helvetica
   margin: 0
+  transition: transform 1s
 
 .dashboard_gif
+  opacity: .5
   position: absolute
   top: 0
   z-index: -1
 
 .wrapper
+  margin-top: 3rem
   z-index: 1
+
+.dashboard_heading
+  text-align: center
 
 .dashboard_name
   background: image-url('logo.svg') no-repeat 0 0
@@ -21,14 +26,20 @@ body
   height: 36px
   left: 20px
   margin: 0
-  text-indent: 100%
-  white-space: nowrap
   overflow: hidden
   position: fixed
+  text-indent: 100%
+  white-space: nowrap
   width: 300px
 
 .dashboard_tag
-  font-size: 1rem
+  font-size: 3rem
+  font-weight: normal
+  letter-spacing: 6px
+  margin: 0
+  text-transform: uppercase
+
+.current_date
   font-weight: normal
 
 .standup_message
@@ -37,6 +48,6 @@ body
 .user_avatar
   border-radius: 100%
   border: 1px solid white
-  overflow: hidden
   height: 5em
+  overflow: hidden
   width: 5em
