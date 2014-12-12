@@ -8,7 +8,9 @@ class StandupsController < ApplicationController
     client = BasecampClient.new
     messages = client.standup_messages
     parser = BasecampStandupParser.new(messages.to_json)
-    @summaries = parser.summaries
+    @summaries = User.all.map do |user|
+      parser.standup_for(user.basecamp_name)
+    end
     @bart_departures = Bart.new.next_departing_trains(5)
   end
 

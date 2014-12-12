@@ -8,24 +8,35 @@ class BasecampStandupParser
   end
 
   def status_for(name)
-    first_comment_by(name)[:content]
+    comment = first_comment_by(name)
+    comment[:content]
+  rescue
+    default_status
   end
 
   def summary_for(name)
     status_for(name).scan(/\A[^\.]+/).first
   end
 
-  def summaries
+  def standups
     authors.reverse.map do |author|
-      {
-        name: author,
-        summary: summary_for(author),
-        sentiment: analyzer.get_sentiment(status_for(author)),
-      }
+      standup_for(author)
     end
   end
 
+  def standup_for(user)
+    {
+      name: user,
+      summary: summary_for(user),
+      sentiment: analyzer.get_sentiment(status_for(user)),
+    } rescue default_standup_for(user)
+  end
+
   private
+
+  def default_comment
+    { content: "Working at thoughtbot." }
+  end
 
   def analyzer
     @analyzer = Sentimental.new
@@ -36,7 +47,7 @@ class BasecampStandupParser
   end
 
   def first_comment_by(name)
-    comments.find { |comment| comment[:creator][:name] == name}
+    comments.find { |comment| comment[:creator][:name] == name} || default_comment
   end
 
   def comments

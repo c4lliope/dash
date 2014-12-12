@@ -26,6 +26,8 @@ gem "uglifier"
 gem "unicorn"
 
 gem "sentimental"
+gem "better_errors"
+gem "binding_of_caller"
 
 group :development do
   gem "bundler-audit"
