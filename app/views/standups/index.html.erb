@@ -5,3 +5,4 @@
 <% @comments.each do |comment| %>
   <h2><%= "#{comment["creator"]["name"]}: #{comment["content"]}" %></h2><br>
 <% end %>
+<%= image_tag(@gif) %>
