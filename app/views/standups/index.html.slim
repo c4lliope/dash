@@ -6,7 +6,7 @@
 .wrapper
   .dashboard_heading
     h1.dashboard_name
-    h3.current_date Thurs | Dec 11
+    h3.current_date
 
 - @summaries.sample.tap do |summary|
     div.standup_message
@@ -18,7 +18,7 @@
 
 .barts.cf
   h2.barts_header
-    | BART departures
+    | BART Departures
   ul.barts_list.cf
     - @bart_departures.each do |train|
         .bart

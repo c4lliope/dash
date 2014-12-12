@@ -95,20 +95,18 @@ body
     clear: both
 
 .barts
-  background: white
+  background: rgba(white, .7)
   border-radius: 5px
   box-shadow: 0 0px 6px rgba($thoughtbot-gray, 0.3)
   color: $thoughtbot-gray
+  margin: 0 auto
   padding: 20px
-  position: absolute
-  left: 14%
-  top: 40%
-  width: 1020px
+  width: 600px
 
 .barts_header
-  float: left
-  font-size: 22px
-  margin: 0
+  font-size: 20px
+  text-align: center
+  margin-top: 0
 
 .barts_list
   margin: 0
@@ -117,25 +115,23 @@ body
 .bart
   background: rgba(white, 1)
   border-radius: 5px
-  box-shadow: 0 0px 6px rgba($thoughtbot-gray, 0.3)
-  display: block
-  float: right
-  font-size: 18px
-  margin-right: .75rem
+  box-shadow: 0 0px 2px rgba($thoughtbot-gray, 0.6)
+  font-size: 2rem
+  margin-bottom: .75rem
   padding: 10px
-
-.bart_destination,
-.bart_departure
-  text-align: left
 
 .bart_destination
   font-weight: 700
+  display: inline-block
+  text-align: left
 
 .bart_departure
   color: $thoughtbot-red
-  font-size: 1rem
+  font-size: 1.8rem
   font-weight: 300
   padding: 0 0 0 4px
+  display: inline-block
+  float: right
 
   &:after
     content: " min"
