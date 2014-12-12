@@ -1,4 +1,5 @@
 require "basecamp_standup_parser"
+require "bart"
 
 class StandupsController < ApplicationController
   before_filter :find_bad_ass_gif
@@ -8,6 +9,7 @@ class StandupsController < ApplicationController
     messages = client.standup_messages
     parser = BasecampStandupParser.new(messages.to_json)
     @summaries = parser.summaries
+    @bart_departures = Bart.new.next_departing_trains(5)
   end
 
   def find_bad_ass_gif
