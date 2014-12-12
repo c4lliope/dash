@@ -3,6 +3,7 @@ $thoughtbot-gray: #666
 
 body
   background: $thoughtbot-gray
+  font-family: "calluna-sans", Helvetica
   color: white
   font-family: Helvetica
   margin: 0
@@ -44,7 +45,15 @@ body
   font-weight: normal
 
 .standup_message
-  margin: 2em 0
+  background: white
+  border-radius: 5px
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3)
+  left: 50%
+  margin: -120px auto auto -20%
+  padding: 3em
+  position: absolute
+  top: 50%
+  width: 40%
 
 .user_avatar
   border-radius: 100%
@@ -52,3 +61,23 @@ body
   height: 5em
   overflow: hidden
   width: 5em
+
+.user_message
+  color: #95a5a6
+  font-size: 1.25em
+  margin: 0
+
+.user_name
+  color: #2c3e50
+  font-size: 2em
+  margin: 0 0 0.25em
+
+.media_body
+  overflow: hidden
+
+.media_visual
+  float: left
+  margin-right: 1em
+
+  img
+    display: block

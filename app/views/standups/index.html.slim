@@ -9,10 +9,11 @@
     h2.dashboard_tag We in the huddle
     h3.current_date Thurs | Dec 11
 
-  ul.standup_list
-    - @summaries.each do |summary|
-      li.standup_message
-        .user_avatar
-          img src="http://placekitten.com/350/150"
-        .sentiment_icon
-        h3.user_name = "#{summary[:name]}: #{summary[:summary]}"
+- @summaries.each do |summary|
+  - if summary == @summaries.last
+      div.standup_message
+        .user_avatar.media_visual
+            img src="http://placekitten.com/350/150"
+        .media_body
+          h3.user_name = summary[:name]
+          p.user_message = summary[:summary]
