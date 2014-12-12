@@ -31,6 +31,8 @@ if ! command -v foreman > /dev/null; then
   printf 'See https://github.com/ddollar/foreman for install instructions.\n'
 fi
 
+rake db:seed
+
 # Only if this isn't CI
 # if [ -z "$CI" ]; then
 # fi
