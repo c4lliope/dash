@@ -9,14 +9,13 @@
     h2.dashboard_tag We in the huddle
     h3.current_date Thurs | Dec 11
 
-- @summaries.each do |summary|
-  - if summary == @summaries.last
-      div.standup_message
-        .user_avatar.media_visual
-            img src="http://placekitten.com/350/150"
-        .media_body
-          h3.user_name = summary[:name]
-          p.user_message = summary[:summary]
+- @summaries.sample.tap do |summary|
+    div.standup_message
+      .user_avatar.media_visual
+          img src="http://placekitten.com/350/150"
+      .media_body
+        h3.user_name = summary[:name]
+        p.user_message = summary[:summary]
 
 .barts.cf
   h2.barts_header
