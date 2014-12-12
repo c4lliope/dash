@@ -1,4 +1,4 @@
-require "lib/basecamp_standup_parser"
+require "basecamp_standup_parser"
 
 class StandupsController < ApplicationController
   def index
