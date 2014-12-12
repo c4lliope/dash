@@ -16,9 +16,18 @@ class StandupsController < ApplicationController
   end
 
   def find_bad_ass_gif
+    @embed_url = random_gif
+  end
+
+  def random_gif
     response = HTTParty.get("http://api.giphy.com/v1/gifs/trending?api_key=#{ENV["GIPHY_PUBLIC_KEY"]}")
-    random_selection = rand(response["data"].count)
-    @embed_url = response["data"][random_selection]["embed_url"]
+    response["data"].sample["embed_url"]
+  rescue
+    default_gif
+  end
+
+  def default_gif
+    "http://giphy.com/embed/rTrHkdjvPPjMs?html5=true"
   end
 
   def gravatar_image_for(name)
