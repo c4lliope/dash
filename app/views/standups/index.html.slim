@@ -17,3 +17,14 @@
         .media_body
           h3.user_name = summary[:name]
           p.user_message = summary[:summary]
+
+.barts.cf
+  h2.barts_header
+    | BART departures
+  ul.barts_list.cf
+    - @bart_departures.each do |train|
+        .bart
+          .bart_destination
+            = train.destination
+          .bart_departure
+            = train.minutes_until_departure

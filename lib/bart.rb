@@ -28,7 +28,7 @@ class Bart
   class Departure
     def initialize(destination, minutes_until_departure)
       @destination = destination
-      @minutes_until_departure = minutes_until_departure
+      @minutes_until_departure = minutes_until_departure.to_i
     end
 
     attr_reader :destination, :minutes_until_departure

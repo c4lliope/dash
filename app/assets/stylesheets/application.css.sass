@@ -83,3 +83,48 @@ body
 
   img
     display: block
+
+.cf
+  &:before
+    content: ""
+    display: table
+  &:after
+    content: ""
+    display: table
+    clear: both
+
+.barts
+  bottom: 20px
+  position: absolute
+  right: 20px
+  text-align: right
+  width: 1020px
+
+.barts_header
+  font-size: 22px
+  float: left
+  margin: 0
+
+.barts_list
+  margin: 0
+  padding: 0
+
+.bart
+  display: block
+  float: right
+  font-size: 22px
+  padding: 0 4px
+
+  &:not(:first-child) .bart_departure:after
+    content: " min,"
+
+.bart_destination,
+.bart_departure
+  display: inline-block
+
+.bart_departure
+  padding: 0 0 0 4px
+
+  &:after
+    content: " min"
+    display: inline
