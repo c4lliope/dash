@@ -1,5 +1,5 @@
 GIT
-  remote: git@github.com:richrines/logan.git
+  remote: git://github.com/richrines/logan.git
   revision: 9081baf1d59715e72060a616c98ff1cd9ce95e8d
   specs:
     logan (0.1.4)
