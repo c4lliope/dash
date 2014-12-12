@@ -25,6 +25,8 @@ gem "title"
 gem "uglifier"
 gem "unicorn"
 
+gem "sentimental"
+
 group :development do
   gem "bundler-audit"
   gem "spring"

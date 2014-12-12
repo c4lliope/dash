@@ -1,4 +1,6 @@
 require "json"
+require "sentimental"
+Sentimental.load_defaults
 
 class BasecampStandupParser
   def initialize(conversation_json)
@@ -18,11 +20,16 @@ class BasecampStandupParser
       {
         name: author,
         summary: summary_for(author),
+        sentiment: analyzer.get_sentiment(status_for(author)),
       }
     end
   end
 
   private
+
+  def analyzer
+    @analyzer = Sentimental.new
+  end
 
   def authors
     comments.map {|comment| comment[:creator][:name] }.uniq
