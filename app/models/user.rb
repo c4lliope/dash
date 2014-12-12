@@ -8,4 +8,8 @@ class User < ActiveRecord::Base
     self.thoughtbot_email_name ||= self.name.downcase
     super
   end
+
+  def thoughtbot_email
+    thoughtbot_email_name + "@thoughtbot.com"
+  end
 end

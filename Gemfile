@@ -28,6 +28,7 @@ gem "unicorn"
 gem "sentimental"
 gem "better_errors"
 gem "binding_of_caller"
+gem "gravatar"
 
 group :development do
   gem "bundler-audit"

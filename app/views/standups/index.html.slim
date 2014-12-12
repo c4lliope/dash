@@ -11,7 +11,7 @@
 - @summaries.sample.tap do |summary|
     div.standup_message
       .user_avatar.media_visual
-          img src="http://placekitten.com/350/150"
+          img src="#{summary[:image]}"
       .media_body
         h3.user_name = summary[:name]
         p.user_message = summary[:summary]
