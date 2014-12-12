@@ -44,6 +44,8 @@ body
 
 .current_date
   font-weight: normal
+  font-size: 3.5rem
+  text-shadow: 0 5px 9px rgba($thoughtbot-gray, 0.9)
 
 .standup_message
   background: white
@@ -51,9 +53,9 @@ body
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3)
   left: 50%
   margin: -120px auto auto -20%
-  padding: 3em
+  padding: 1rem 2rem
   position: absolute
-  top: 50%
+  top: 58%
   width: 40%
 
 .user_avatar
@@ -93,15 +95,19 @@ body
     clear: both
 
 .barts
-  bottom: 20px
+  background: white
+  border-radius: 5px
+  box-shadow: 0 0px 6px rgba($thoughtbot-gray, 0.3)
+  color: $thoughtbot-gray
+  padding: 20px
   position: absolute
-  right: 20px
-  text-align: right
+  left: 14%
+  top: 40%
   width: 1020px
 
 .barts_header
-  font-size: 22px
   float: left
+  font-size: 22px
   margin: 0
 
 .barts_list
@@ -109,19 +115,26 @@ body
   padding: 0
 
 .bart
+  background: rgba(white, 1)
+  border-radius: 5px
+  box-shadow: 0 0px 6px rgba($thoughtbot-gray, 0.3)
   display: block
   float: right
-  font-size: 22px
-  padding: 0 4px
-
-  &:not(:first-child) .bart_departure:after
-    content: " min,"
+  font-size: 18px
+  margin-right: .75rem
+  padding: 10px
 
 .bart_destination,
 .bart_departure
-  display: inline-block
+  text-align: left
+
+.bart_destination
+  font-weight: 700
 
 .bart_departure
+  color: $thoughtbot-red
+  font-size: 1rem
+  font-weight: 300
   padding: 0 0 0 4px
 
   &:after

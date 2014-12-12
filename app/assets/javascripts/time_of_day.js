@@ -5,6 +5,8 @@ $(document).ready(function() {
     if (0 <= currentTime&&currentTime < 13) {
       $(".standup_message").show();
       $(".barts").hide();
+      // $(".standup_message").hide();
+      // $(".barts").show();
     }
 
     if (13 <= currentTime&&currentTime < 24) {
