@@ -26,7 +26,7 @@ class BasecampStandupParser
 
   def standup_for(user)
     {
-      name: user,
+      name: user.scan(/\w+/).first,
       summary: summary_for(user),
       sentiment: analyzer.get_sentiment(status_for(user)),
     } rescue default_standup_for(user)
