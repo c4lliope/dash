@@ -12,4 +12,5 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require time_of_day
 //= require_tree .
